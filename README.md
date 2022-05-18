@@ -42,12 +42,12 @@ Columns can also take a cellComponent and a headerComponent. For example the def
 <div class="cell"><slot /></div>
 <style>
 	.cell {
-		background-color: white;
-		white-space: nowrap;
-		border: 1px solid grey;
-		margin: 0px;
-		margin-bottom: -1px;
-		margin-top: -1px;
+        background-color: white;
+        white-space: nowrap;
+        border: 1px solid grey;
+        margin: 0px;
+        margin-bottom: -1px;
+        margin-top: -1px;
         padding: 0.25rem;
         font-weight: normal;
 	}
@@ -65,13 +65,7 @@ and then
      <Column label="Name" sticky={true} value={raw('name')}  cellComponent={MyCellComponent}/>
 ```
 
-
-
-
 ## Basic Demo and Example
 https://svelte.dev/repl/476923e68cd1473bac0057612b148d65?version=3.48.0
 
-```bash
-# create a new project in the current directory
-npm install -D sveltekit-table
-```
+
