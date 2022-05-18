@@ -44,12 +44,12 @@
 	<h1>DataGrid with {hugeDataset.length} rows</h1>
 	<div class="example">
 		<DataGrid records={hugeDataset}>
-			<Column sticky={true} value={checkbox('id')} sort="" />
-			<Column label="Name" sticky={true} value={raw('name')} sort="" />
-			<Column label="Email" value={raw('email')} sort="" />
-			<Column label="Phone" value={raw('phone')} sort="" />
-			<Column label="Username" value={raw('username')} sort="" />
-			<Column label="Website" value={raw('website')} sort="" />
+			<Column sticky={true} value={checkbox('id')}  />
+			<Column label="Name" sticky={true} value={raw('name')}  />
+			<Column label="Email" value={raw('email')}  />
+			<Column label="Phone" value={raw('phone')}  />
+			<Column label="Username" value={raw('username')}  />
+			<Column label="Website" value={raw('website')}  />
 		</DataGrid>
 	</div>
 
