@@ -2,8 +2,6 @@ export type ColumnDefinition = {
     label: string
     value: any
     sticky: boolean
-    center: boolean
-    sort: boolean
     cellComponent:any
     headerComponent:any
 }

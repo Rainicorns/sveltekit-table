@@ -8,8 +8,6 @@
 	export let label = '&nbsp;';
 	export let value: (row: any) => any;
 	export let sticky = false;
-	export let center = false;
-	export let sort;
 
 	export let cellComponent = DefaultCellComponent;
 	export let headerComponent = DefaultHeaderComponent;
@@ -17,6 +15,6 @@
 	const configurationStore: Writable<ColumnConfig> = getContext('datatableConf');
 	const { columnDefinition } = get(configurationStore);
 
-	columnDefinition.push({ label, value, sticky, center, sort, cellComponent, headerComponent });
+	columnDefinition.push({ label, value, sticky, cellComponent, headerComponent });
 	$configurationStore = $configurationStore;
 </script>
