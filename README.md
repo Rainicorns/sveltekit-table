@@ -5,5 +5,5 @@
 npm install -D sveltekit-table
 ```
 
-Demo
+Basic Demo and Example
 https://svelte.dev/repl/476923e68cd1473bac0057612b148d65?version=3.48.0
